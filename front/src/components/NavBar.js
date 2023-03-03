@@ -35,7 +35,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/chic%C3%A3o-bulh%C3%B5es-8592a04a/"><img src={navIcon1} alt="linkedin" /></a>
+                <a href="https://www.linkedin.com/company/smdeis-rio/"><img src={navIcon1} alt="linkedin" /></a>
                 <a href="https://www.facebook.com/smdeis.rio/"><img src={navIcon2} alt="facebook" /></a>
                 <a href="https://www.instagram.com/smdeis.rio/"><img src={navIcon3} alt="instagram" /></a>
               </div>
