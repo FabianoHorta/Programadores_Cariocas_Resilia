@@ -56,7 +56,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Seja Bem vindo!</span>
                 <h1>{``} <span className="txt-rotate" dataperiod="1000" data-rotate='[ "PROGRAMADOR CARIOCA" ]'><span className="wrap">{text}</span></span></h1>
-                <p>É uma Iniciativa de política pública da Prefeitura da Cidade do Rio de Janeiro, que está sendo lançada pela Secretaria de Desenvolvimento Econômico, Inovação e Simplificação (SMDEIS), batizada de Programadores Cariocas. O projeto é realizado junto a instituições previamente selecionadas, é destinada a refugiados e egressos da rede pública com ensino médio completo, com prioridade para negros, mulheres e trans. A meta é formar cinco mil profissionais até 2024.
+                <p id="text-review">É uma iniciativa de política pública da Prefeitura da cidade do Rio de Janeiro, que foi lançada pela Secretaria de Desenvolvimento Econômico, Inovação e Simplificação (SMDEIS), batizada de Programadores Cariocas. O projeto é realizado junto a instituições previamente selecionadas, destinada a refugiados e egressos da rede pública com ensino médio completo, com prioridade para negros, mulheres e trans. A meta é formar cinco mil profissionais até 2024.
 </p>
               </div>}
             </TrackVisibility>

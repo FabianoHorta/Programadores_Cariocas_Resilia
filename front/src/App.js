@@ -11,12 +11,11 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import AdminFuncionalidades from './components/admin/AdminFuncionalidades';
 import AdminSobre from '../src/components/admin/AdminSobre';
-import VLibras from '@djpfs/react-vlibras'
+
 
 function App() {
   return (
     <div className="App">
-      <VLibras forceOnload={true} />
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={ <Home /> } />

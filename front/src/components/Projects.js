@@ -72,8 +72,7 @@ export const Projects = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <h2>Programadores Cariocas</h2>
-                  <p>O Programadores Cariocas faz parte de um grande ecossistema de iniciativas conectadas, que têm o objetivo de tornar 
-                    Rio a capital da inovação e tecnologia. </p>
+                  <p>O projeto Programadores Cariocas faz parte de um grande ecossistema de iniciativas conectadas, que visam tornar o Rio de Janeiro a capital de inovação e tecnologia. </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
