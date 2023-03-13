@@ -14,7 +14,7 @@ export const Funcionalidades = () => {
     }, []);
     
     return (
-        <section className="skill bg-info" id="skills" style={{ height: '900px' }}>
+        <section className="skill bg-info" id="funcionalidades" style={{ height: '900px' }}>
             <div className="container" style={{ height: '500px' }}>
                 <div className="row">
                     <div className="col-12">

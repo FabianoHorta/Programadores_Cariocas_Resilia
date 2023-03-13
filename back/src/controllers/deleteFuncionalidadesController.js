@@ -2,13 +2,13 @@ const Funcionalidades = require("../models/Funcionalidades");
 
 const deleteFuncionalidades = async (req, res) => {
     
-    if (req.params.funcionalidadeId == undefined || req.params.funcionalidadeId == null) {
+    if (req.body.funcionalidadeId == undefined || req.body.funcionalidadeId == null) {
         return res.redirect("/?error=noUserSpecified");
     };
     
-    await User.destroy({
+    await Funcionalidades.destroy({
         where: {
-            funcionalidadeId: req.params.funcionalidadeId,
+            funcionalidadeId: req.body.funcionalidadeId,
         }
     });
 

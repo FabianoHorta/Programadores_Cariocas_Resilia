@@ -38,18 +38,26 @@ export const Contact = () => {
     let result = await response.json();
     console.log(result);
 
-    if (result.code == 200) {
+    if (result.code === 200) {
       setStatus({ success: true, message: "Mensagem de Sucesso" });
     } else {
       setStatus({
         success: false,
         message: "",
       });
+      setFormDetails({
+        firstName: "",
+        lastName: "",
+        email: "",
+    number: "",
+
+      });
+      
     }
   };
 
   return (
-    <section className="contact" id="connect">
+    <section className="contact" id="inscricao">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
@@ -82,7 +90,7 @@ export const Contact = () => {
                           value={formDetails.firstName}
                           placeholder="Nome"
                           onChange={(e) =>
-                            onFormUpdate("firstName", e.target.value)
+                            onFormUpdate("firstName", e.target.value) 
                           }
                         />
                       </Col>

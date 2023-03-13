@@ -6,10 +6,8 @@ import projImg3 from "../assets/img/3.png";
 import projImg4 from "../assets/img/4.png";
 import projImg5 from "../assets/img/5.png";
 import projImg6 from "../assets/img/6.png";
-import projImg7 from "../assets/img/7.png";
 import projImg8 from "../assets/img/8.png";
 import projImg9 from "../assets/img/9.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import pdf from "../assets/pdf/classificacao.pdf";
@@ -64,7 +62,7 @@ export const Projects = () => {
   
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projetos">
       <Container>
         <Row>
           <Col size={12}>
@@ -131,7 +129,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }

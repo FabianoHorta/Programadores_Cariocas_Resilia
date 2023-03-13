@@ -1,11 +1,11 @@
 const Funcionalidades = require("../models/Funcionalidades");
 
 const editFuncionalidades = async (req, res) => {
-    const { FuncionalidadeId } = req.body;
+    const { funcionalidadeId,name,comment } = req.body;
     
     Funcionalidades.findOne({
         where: {
-            FuncionalidadeId: req.params.FuncionalidadeId,
+            funcionalidadeId: req.body.funcionalidadeId,
         }
     }).then((Funcionalidade) => {
         Funcionalidade.update({ name, comment });
