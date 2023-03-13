@@ -167,18 +167,19 @@ span.navbar-text {
 
 .navbar-text button {
   font-weight: 700;
-  color: rgb(43, 55, 115);
-  border: 1px solid rgb(43, 55, 115);
+  color: rgb(255, 255, 255);
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
-  background-color: transparent;
   transition: 0.3s ease-in-out;
+  background: #0AA8DD;
+  border-radius: 5px;
 }
 
 .navbar-text button span {
   z-index: 1;
+  border-radius: 5px;
 }
 
 .navbar-text button::before {
@@ -193,12 +194,14 @@ span.navbar-text {
   top: 0;
   z-index: -1;
   transition: 0.3s ease-in-out;
+  border-radius: 5px;
 }
 
 .navbar-text button:hover {
   color: #fffdfd;
   background-color: rgb(43, 55, 115);
   border: none;
+  border-radius: 5px;
 
 }
 
@@ -416,7 +419,7 @@ color: #ffffff;
 }
 
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(6, 47, 93);
@@ -702,7 +705,7 @@ color: #ffffff;
   border-radius: 18px;
 }
 .footer img {
-  width: 35%;
+  width: 250px;
 }
 .footer p {
   font-weight: 400;
@@ -720,3 +723,10 @@ color: #ffffff;
   text-align: justify;
 }
 
+#equipe{
+  font-weight: 400;
+  color: rgb(43, 55, 115) !important;
+  letter-spacing: 0.8px;
+  padding: 0 25px;
+  font-size: 18px;
+}

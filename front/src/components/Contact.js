@@ -49,7 +49,7 @@ export const Contact = () => {
         firstName: "",
         lastName: "",
         email: "",
-    number: "",
+        number: "",
 
       });
       

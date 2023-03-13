@@ -28,10 +28,10 @@ export const NavBar = () => {
       setActiveLink(value);
     };
   return (
-    <Navbar expand="md" className="bg-white">
+    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="/">
-          <img className="rounded-logo" src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
@@ -77,6 +77,11 @@ export const NavBar = () => {
               Funcionalidades
             </Nav.Link>
           </Nav>
+          <a href="https://bit.ly/bangudevs" target="_blank">
+                <button className="vvd">
+                  <span id="equipe" >Equipe</span>
+                </button>
+              </a>
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/company/smdeis-rio/">
@@ -91,7 +96,7 @@ export const NavBar = () => {
             </div>
             <HashLink to="#inscricao">
               <button className="vvd">
-                <span>Inscrição</span>
+                <span>Inscreva-se</span>
               </button>
             </HashLink>
           </span>

@@ -14,13 +14,13 @@ export const Funcionalidades = () => {
     }, []);
     
     return (
-        <section className="skill bg-info" id="funcionalidades" style={{ height: '900px' }}>
+        <section className="skill" id="funcionalidades" style={{ height: '900px' }}>
             <div className="container" style={{ height: '500px' }}>
                 <div className="row">
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn text-light" style={{ height: '720px', marginTop: '100px' }}>
                             <h2>Funcionalidades</h2>
-                            <p>Abaixo uma lista das aplicabilidades possíveis com a nossa plataforma.</p>
+                            <p>Abaixo uma lista das vantagens de usar a nossa plataforma.</p>
                             <ul style={{ listStyle: 'none' }}>
                               {funcionalidadeItems.map((funcionalidades, index) => (
                                 <li className='fs-1' index={index}>{funcionalidades.name}</li>
